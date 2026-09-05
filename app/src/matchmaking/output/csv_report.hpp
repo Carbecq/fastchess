@@ -1,6 +1,8 @@
 #pragma once
 
 #include <cmath>
+#include <cstddef>
+#include <cstdint>
 #include <fstream>
 #include <memory>
 #include <string>
@@ -11,6 +13,9 @@
 #include <matchmaking/elo/elo_wdl.hpp>
 #include <matchmaking/sprt/sprt.hpp>
 #include <matchmaking/stats.hpp>
+
+#define FMT_HEADER_ONLY
+#include <fmt/include/fmt/core.h>
 
 namespace fastchess {
 
